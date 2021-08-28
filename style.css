@@ -1,0 +1,116 @@
+
+.body{
+    background-color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.left{
+    position: absolute;
+    left: 34px;
+    top: 12px;
+    display: inline-block;
+ 
+   
+}
+.left img:hover{
+    color:rgb(218 , 165, 32);
+    transition: ease-in;
+    
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+    border: 2px solid black;
+}
+.mid img{ 
+    padding-top: 5px;
+    width: 250px;
+padding-left: 150px;
+}
+ .mid img:hover{
+     color: blanchedalmond;
+ }
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: rgb(218 , 165, 32);
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 12px;
+    display: inline-block;
+    border: 2px solid black;
+}
+.navbar{
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+}
+ .navbar li{
+    
+     display: inline-block;
+     font-size: 20px;
+ }
+ 
+ .navbar ul li a{
+     padding-left: 100px; 
+     text-decoration: none;
+     color: white;
+     padding: 35px;
+
+ }
+ .navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(218, 165, 32);}
+
+    .navbar li a:active{
+        text-decoration: underline;
+        color: rgb(218, 165, 32);}
+
+    .navbar div{
+    color: rgb(218 , 165, 32);
+    text-align: center;
+    font-size:x-large;
+    font-family: cursive;
+    }
+    
+.btn{
+    background-color: black;
+    color: rgb(218, 165, 32);
+    border: 1px solid #E5BF4A;
+    display: inline-block;
+    padding: 11px 20px;
+    text-transform: capitalize;
+    font-size: 16px
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(218 , 165, 32);
+}
+.left ul i{
+    padding-left: 35px;
+}
+.left ul a i:hover{
+    color: rgb(218 , 165, 32);
+    
+}
+.slider-area{
+    background-color: black;
+    align-items: center;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
